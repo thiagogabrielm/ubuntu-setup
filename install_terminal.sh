@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # Install exa (better "ls" command)
-apt install exa
+sudo apt install exa
 
 # Install ZSH
 sudo apt install -y git-core zsh curl
