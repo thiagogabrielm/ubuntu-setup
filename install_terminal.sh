@@ -23,8 +23,8 @@ sudo apt install -y fonts-font-awesome
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Replace the configs with the saved one.
-sudo cp terminal-config/.zshrc ~/.zshrc
-sudo cp terminal-config/.p10k.zsh ~/.p10k.zsh
+sudo cp ~/ubuntu-setup/terminal-config/.zshrc ~/.zshrc
+sudo cp ~/ubuntu-setup/terminal-config/.p10k.zsh ~/.p10k.zsh
 
 # Switch the shell.
 chsh -s $(which zsh)
