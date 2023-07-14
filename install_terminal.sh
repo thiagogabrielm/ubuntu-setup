@@ -19,7 +19,7 @@ cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/zsh-users/zsh-aut
 # Install font
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Meslo.zip
 sudo apt install unzip
-unzip Meslo.zip -d ~/.fonts
+unzip ~/Meslo.zip -d ~/.fonts
 sudo apt install fontconfig
 fc-cache -fv
 
