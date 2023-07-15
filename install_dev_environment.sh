@@ -1,3 +1,4 @@
+#!/usr/bin/zsh
 # Fail on any command.
 set -eux pipefail
 
@@ -7,6 +8,8 @@ sudo apt-get upgrade
 
 # install node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+source ~/.zshrc
 nvm install 18
 nvm use 18
 nvm alias default 18
@@ -39,7 +42,7 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-sudo groupadd docker
+// sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 sudo -k
